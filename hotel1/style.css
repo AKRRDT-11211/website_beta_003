@@ -1,0 +1,79 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#div2{
+	background:rgba(19, 18, 18, 0.86);
+	height: 85px;
+	width: 100%;
+    line-height: 100px;
+    position: fixed;
+	display: block;
+}
+#div2 ul{
+	float: right;
+	position: relative;
+	margin-right: 10px;
+	line-height: 40px;
+	
+}
+#div2 ul li {
+	list-style-type: none;
+	display: inline-block;
+	width: 185px;
+    margin: 0px;
+
+}
+#div2 ul li a{
+	padding: 22px;
+	text-decoration: none;
+	color: white; 
+	display: block;
+	overflow: hidden;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#div2 ul li a:hover{
+	color: black;
+
+}
+#div2 ul li:hover{
+	background: rgba(255, 139, 0, 0.87);
+     transition: all 0.40s;
+     
+}
+#div2 ul li:hover ul{
+display: block;
+	}
+#div2 ul ul{
+	display: none;
+	width: 120px;
+	position: absolute;
+
+}
+#div2 ul li li{
+	background: rgba(255, 139, 0, 0.87);
+	display: block;
+}
+
+#div2 ul li li a{
+	padding: 10px;
+}
+#div2 ul li li:hover{
+	background: rgba(215, 155, 100, 0.6);
+		transition: all 0.40s;
+
+}
+.active{
+	background: rgba(255, 139, 0, 0.87);
+	
+}
+.active1{
+	background: rgba(215, 155, 100, 0.6);
+	
+}
+#div2 ul li a span{
+	height: 100px;
+}
